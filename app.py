@@ -31,7 +31,7 @@ filtered_df = df[
 st.subheader("Filtered Data")
 st.dataframe(filtered_df)
 
-col1, col2, col3, = st.columns(3)
+col1, col2, col3 = st.columns(3)
 
 col1.metric("Total Net Sales ($MM)", f"{filtered_df['Net Sales ($MM)'].sum():,.0f}")
 col2.metric("Total Operating Expenses ($MM)", f"{filtered_df['Operating Expenses ($MM)'].sum():,.0f}")
