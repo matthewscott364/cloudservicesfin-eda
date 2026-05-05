@@ -6,7 +6,7 @@ st.set_page_config(page_title="Cloud Services Financial EDA", layout="wide")
 
 st.title("Cloud Services Financial EDA")
 
-df = pd.read_csv(r"C:\Users\matth\OneDrive\Desktop\DA\Personal_Projects\Business\cloudservicesfin-eda\CloudServicesFinancials.csv")
+df = pd.read_csv(r"C:/Users/matth/OneDrive/Desktop/DA/Personal_Projects/Business/cloudservicesfin-eda/CloudServiceFinancials.csv")
 
 st.sidebar.header("Filters")
 
